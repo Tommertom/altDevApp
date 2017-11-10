@@ -32,4 +32,6 @@ Example url: `http://192.168.178.33:8100`
 Security: this app uses cordova whitelist v7 and allows you to access ANY webapp/website on the internet to be loaded
 in the webview container with the cordova plugins enabled. So basically extremely insecure if used improperly.
 
+Want to see the UI in Ionic View pro (cordova plugins appear not to work - but livereload does), appid: e120a881
+
 Copyright: see LICENSE.md
