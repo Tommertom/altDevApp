@@ -80,6 +80,7 @@ export class HomePage {
         },
         {
           name: 'url',
+          value:'http://',
           placeholder: 'http://192.120.134.33:8088'
         }
       ],
