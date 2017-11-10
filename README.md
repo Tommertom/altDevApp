@@ -27,6 +27,8 @@ Then: run `ionic serve -w chrome` for the app you want to develop and use the IP
 entry on the device. Please make sure to include `http://` in the url. And don't use `http:localhost:8100`, but
 the IP of your PC running ionic serve. For hopefully obvious reasons.
 
+Example url: `http://192.168.178.33:8100`
+
 Security: this app uses cordova whitelist v7 and allows you to access ANY webapp/website on the internet to be loaded
 in the webview container with the cordova plugins enabled. So basically extremely insecure if used improperly.
 
