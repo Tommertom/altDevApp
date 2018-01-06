@@ -1,17 +1,17 @@
-# altDevApp - the alternative DevApp for Ionic devs
+# altDevApp - the alternative DevApp for (Ionic) devs
 This near-finished boilerplate allows you to run a devapp to test cordova web apps like Ionic's great framework on a 
 physical device while runing a dev web server (like Ionic's `ionic serve`) and not needing to use a cable or live-reload.
 
-Big difference with PhoneGaps's DevApp and Ionic's DevApp is that it doesn't have a fance UI and a discovery function, BUT, with full control over plugins you want to try.
+Big difference with PhoneGaps's DevApp and Ionic's DevApp is that it doesn't have a fance UI and a discovery function, BUT, you will have  full control over plugins you want to try over wifi and cable-less livereload over multiple devices.
 
 ## How to use:
-* git clone https://github.com/Tommertom/altDevApp.git
+* `git clone https://github.com/Tommertom/altDevApp.git`
 * cd altDevApp
 * run `npm i`
 * change `config.xml` to reflect the development machine as per outline below
 * add the platform you want to use (ios/android)
 * add some plugins you want to use more (other then the ones already included, see below)
-* and install the apk using e.g. `ionic cordova run android`
+* and install the build on the device (or multiple devices) using e.g. `ionic cordova run android`
 
 Key lines to change in config.xml (besides the name of the app and author etc - no need to have my name there!)
 * `<name>a_235-8100</name>` : the name under which the icon should appear on your device (I use part of IP number+ port) as I run different dev machines and apps under different ports. 
@@ -61,6 +61,8 @@ Security: this app uses cordova whitelist plugin v7 and allows you to access ANY
 
 ## Todo
 Well, ideally, there would be a nice UI like Ionic's DevApp, but I am not sure if that can be done using webapp or a javaplugin. Something to figure out whenever the time is right.
+
+Tested under Android (I don't have xcode) and Samsung Tablet.
 
 ## Copyright
 Copyright: see LICENSE.md
