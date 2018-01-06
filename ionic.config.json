@@ -1,6 +1,6 @@
 {
-  "name": "host",
-  "app_id": "eae78c90",
+  "name": "myDevApp",
+  "app_id": "",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}

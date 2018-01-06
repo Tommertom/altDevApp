@@ -1,19 +1,14 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      AltDevApp
+      Ionic Blank
     </ion-title>
   </ion-navbar>
 </ion-header>
-<ion-fab top right>
-  <button ion-fab (click)="addItem()"><ion-icon name="add"></ion-icon></button>
-</ion-fab>
+
 <ion-content padding>
-  <h1>Select a client or add a new one</h1>
-  <ion-list *ngFor="let item of clientList">
-    <ion-item (click)="openClient(item)" (press)="editClient(item)">
-      <h2>{{item.name}}</h2>
-      <p>{{item.url}}</p>     
-    </ion-item>
-  </ion-list>
+  The world is your oyster.
+  <p>
+    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
+  </p>
 </ion-content>
