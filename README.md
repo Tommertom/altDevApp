@@ -7,11 +7,11 @@ Big difference with PhoneGaps's DevApp and Ionic's DevApp is that it doesn't hav
 ## How to use:
 * git clone https://github.com/Tommertom/altDevApp.git
 * cd altDevApp
-* change config.xml to reflect the development machine as per outline below
+* run `npm i`
+* change `config.xml` to reflect the development machine as per outline below
 * add the platform you want to use (ios/android)
 * add some plugins you want to use more (other then the ones already included, see below)
 * and install the apk using e.g. `ionic cordova run android`
-```
 
 Key lines to change in config.xml (besides the name of the app and author etc - no need to have my name there!)
 * `<name>a_235-8100</name>` : the name under which the icon should appear on your device (I use part of IP number+ port) as I run different dev machines and apps under different ports. 
