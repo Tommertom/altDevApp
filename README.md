@@ -1,3 +1,7 @@
+# DEPRECATED - please use diyDevApp on this repository 
+This app is no longer usefull (neither it ever was). A new boilerplate available under https://github.com/Tommertom/diyDevApp
+
+
 # altDevApp - the alternative DevApp for (Ionic) devs
 This near-finished boilerplate allows you to run a devapp to test cordova web apps like Ionic's great framework on a 
 physical device while runing a dev web server (like Ionic's `ionic serve`) and not needing to use a cable or live-reload.
